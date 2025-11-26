@@ -35,3 +35,4 @@
 - Communicated with backend learners for API integration
 - Learned the importance of team synergy
 
+
