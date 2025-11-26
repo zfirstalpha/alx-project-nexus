@@ -33,5 +33,6 @@
 ## Collaboration Experience
 - Worked with fellow ProDev frontend learners
 - Communicated with backend learners for API integration
-- Learned the importance of team synergy
+- Learned the importance of team synerg
+
 
