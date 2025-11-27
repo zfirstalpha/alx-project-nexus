@@ -39,8 +39,8 @@ interface FeaturedWatch {
 const mockFeaturedWatch: FeaturedWatch = {
   name: "Patek Philippe Nautilus 5711/1A-010",
   description: `The iconic Nautilus 5711/1A-010 redefines luxury sports watches with its distinctive porthole design. Crafted in stainless steel with a stunning blue sunburst dial, this timepiece features a self-winding mechanical movement with a 120m water resistance. The perfect balance of elegance and sportiness, featuring a horizontally embossed dial, luminous hands, and a seamlessly integrated bracelet.`,
-  price: 145000,
-  originalPrice: 175000,
+  price: 9500,
+  originalPrice: 12500,
   brand: "patek-philippe",
   water: "120m",
   casematerial: "Stainless Steel",
@@ -150,10 +150,10 @@ const FeaturedProduct: React.FC = () => {
                   ${featuredWatch1?.price.toLocaleString()}
                 </span>
                 <span className="text-xl text-gray-500 line-through ml-4">
-                  ${featuredWatch1?.originalPrice.toLocaleString()}
+                  ETB {featuredWatch1?.originalPrice.toLocaleString()}
                 </span>
                 <span className="ml-4 hidden md:block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
-                  Save $
+                  Save ETB
                   {(
                     featuredWatch1?.originalPrice - featuredWatch1?.price
                   ).toLocaleString()}

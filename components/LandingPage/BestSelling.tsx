@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
-import Watch1 from "@/public/images/watch1.png";
-import Watch2 from "@/public/images/watch2.png";
-import Watch3 from "@/public/images/watch3.png";
-import Watch4 from "@/public/images/watch4.png";
-import Watch5 from "@/public/images/watch5.png";
-import Watch6 from "@/public/images/watch6.png";
-import Watch7 from "@/public/images/watch7.png";
-import Watch8 from "@/public/images/watch8.png";
-import Watch9 from "@/public/images/watch9.png";
-import Watch10 from "@/public/images/watch10.png";
-import Watch11 from "@/public/images/watch11.png";
-import Watch12 from "@/public/images/watch12.png";
+import Watch1 from "@/public/images/watch1.jpg";
+import Watch2 from "@/public/images/watch2.jpg";
+import Watch3 from "@/public/images/watch3.jpg";
+import Watch4 from "@/public/images/watch4.jpg";
+import Watch5 from "@/public/images/watch5.jpg";
+import Watch6 from "@/public/images/watch6.jpg";
+import Watch7 from "@/public/images/watch7.jpg";
+import Watch8 from "@/public/images/watch8.jpg";
+import Watch9 from "@/public/images/watch9.jpg";
+import Watch10 from "@/public/images/watch10.jpg";
+import Watch11 from "@/public/images/watch11.jpg";
+import Watch12 from "@/public/images/watch12.jpg";
 import Link from "next/link";
 
 interface Watch {
@@ -33,8 +33,8 @@ const BestSellingWatches: React.FC = () => {
     const fetchedWatches: Watch[] = [
       {
         id: 1,
-        name: "Seiko GMT Master II",
-        price: 299,
+        name: "White Air",
+        price: 2900,
         rating: 4.8,
         image: Watch3,
         link: "/products/brand/rolex",
@@ -49,80 +49,80 @@ const BestSellingWatches: React.FC = () => {
       },
       {
         id: 3,
-        name: "Seiko Royal Oak",
-        price: 349,
+        name: "red couple T shirt",
+        price: 1999,
         rating: 4.9,
         image: Watch12,
         link: "/products/brand/audemarspiguet",
       },
       {
         id: 4,
-        name: "Seiko Date Just",
-        price: 299,
+        name: "girt skirt black",
+        price: 1450,
         rating: 4.6,
         image: Watch4,
         link: "/products/brand/richardmille",
       },
       {
         id: 5,
-        name: "Seiko Daytona Chronograph",
-        price: 499,
+        name: "Janhoy Etege Tshirt",
+        price: 1999,
         rating: 5.0,
         image: Watch5,
         link: "/products/brand/omega",
       },
       {
         id: 6,
-        name: "Seiko Aquanaut Automatik",
-        price: 499,
+        name: "Black Shoe",
+        price: 4999,
         rating: 4.5,
         image: Watch6,
         link: "/products/brand/iwc",
       },
       {
         id: 7,
-        name: "Seiko Classic Diver",
-        price: 299,
+        name: "White Nike Shoe",
+        price: 3900,
         rating: 4.3,
         image: Watch7,
         link: "/products/brand/cartier",
       },
       {
         id: 8,
-        name: "Seiko Yacht Master II",
-        price: 399,
+        name: "Black Nike Shoe",
+        price: 4200,
         rating: 4.8,
         image: Watch8,
         link: "/products/brand/tudor",
       },
       {
         id: 9,
-        name: "Seiko Submariner",
-        price: 399,
+        name: "GIrl skirt blue",
+        price: 900,
         rating: 4.7,
         image: Watch9,
         link: "/products/brand/rolex",
       },
       {
         id: 10,
-        name: "Seiko Nautilus",
-        price: 299,
+        name: "Shebelaw Konjit ",
+        price: 1900,
         rating: 4.7,
         image: Watch10,
         link: "/products/brand/rolex",
       },
       {
         id: 11,
-        name: "Seiko Santos",
-        price: 299,
+        name: "She is mine",
+        price: 2200,
         rating: 4.7,
         image: Watch11,
         link: "/products/brand/rolex",
       },
       {
         id: 12,
-        name: "Seiko OP Oyster",
-        price: 299,
+        name: "Rolex watch",
+        price: 2900,
         rating: 4.7,
         image: Watch1,
         link: "/products/brand/rolex",
@@ -154,7 +154,7 @@ const BestSellingWatches: React.FC = () => {
     <section className="py-8 md:py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8 md:mb-12">
-          Best-selling Watches
+          Best-selling products
         </h2>
         <div className="relative">
           <button
@@ -190,7 +190,7 @@ const BestSellingWatches: React.FC = () => {
                         {watch.name}
                       </h3>
                       <div className="flex justify-between items-center">
-                        <span className="font-bold">From ${watch.price}</span>
+                        <span className="font-bold">From {watch.price} ETB</span>
                         <div className="flex items-center">
                           <Star className="w-4 h-4 md:w-5 md:h-5 text-yellow-400 fill-current" />
                           <span className="ml-1 text-sm md:text-base">

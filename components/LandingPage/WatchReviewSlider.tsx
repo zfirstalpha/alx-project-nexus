@@ -6,9 +6,9 @@ import trustpilot from "@/public/images/reviews/trustpilotsvg.svg";
 import customerImage1 from "@/public/images/reviews/customer1.jpg";
 import customerImage2 from "@/public/images/reviews/customer2.jpg";
 import customerImage3 from "@/public/images/reviews/customer3.jpg";
-import watch1 from "@/public/images/reviews/watch3.png";
-import watch2 from "@/public/images/reviews/watch4.png";
-import watch3 from "@/public/images/reviews/watch12.png";
+import watch1 from "@/public/images/reviews/watch3.jpg";
+import watch2 from "@/public/images/reviews/watch4.jpg";
+import watch3 from "@/public/images/reviews/watch12.jpg";
 
 // Define a type for the review object
 interface Review {
@@ -26,8 +26,8 @@ const reviews: Review[] = [
   {
     id: 1,
     rating: 5,
-    text: "The 2 watches (Seiko Panerai Luminor and Seiko Datejust) are great! The finishing and the quality of the watches are really high. The communication with the seller was impeccable and the support too. I'll buy for sure other watches from Moddy's.",
-    author: "Giovanni",
+    text: "The gold-tone Omega Speedmaster arrived in pristine condition, and it is stunning in person. The craftsmanship is superb; it feels solid and looks incredibly sharp with the black dial. This is more than just a watch; it's a powerful statement piece that truly elevates my professional attire. A fantastic investment!",
+    author: "Yishak alemayehu",
     date: "Mar 20, 2024",
     customerImage: customerImage1,
     watchImage: watch1,
@@ -35,18 +35,18 @@ const reviews: Review[] = [
   {
     id: 2,
     rating: 4,
-    text: "Everything, from communication, shipment and support, Seikomoddys went over and beyond to make sure I was happy. The watch looks amazing, even better than expected. When it came to adjust the bracelet with the provided tools, they even supported me with a video back to back, to identify my error. Highly recommended them!",
-    author: "Ferid Ben Othman",
-    date: "Sep 11, 2023",
+    text: "These sneakers are the definition of 'effortlessly cool.' The cream color and the subtle gold stitching make them stand out without being over-the-top. They are incredibly comfortable for all-day wear and they pair perfectly with jeans, shorts, and even casual dresses. Style and comfort, 10/10",
+    author: "helina abebe",
+    date: "Sep 11, 2025",
     customerImage: customerImage2,
     watchImage: watch2,
   },
   {
     id: 3,
     rating: 5,
-    text: "I couldn't be happier with my custom Seiko from Moddys. The craftsmanship is outstanding, and the NH35 automatic movement ensures precision. The watch was assembled with such attention to detail, using high-end materials. It's truly a unique piece that stands out. Highly recommend!",
-    author: "Muhammad Hussain",
-    date: "Nov 3, 2023",
+    text: "We absolutely love our 'MR. & MRS.' shirts! The material is so soft and the vibrant yellow color is exactly as pictured. We wore them for our anniversary photoshoot and they were a huge hit. They're a perfect, playful way to show off our bond. Highly recommend for any fun-loving couple!",
+    author: "yeabsira and tihetna",
+    date: "Nov 3, 2025",
     customerImage: customerImage3,
     watchImage: watch3,
   },

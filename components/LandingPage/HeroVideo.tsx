@@ -52,7 +52,7 @@ const WatchHero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Timeless Elegance on Your Wrist
+          Shopping in Addis Ababa 
         </motion.h1>
         <motion.p
           className="text-xl md:text-2xl text-center max-w-2xl"
@@ -60,8 +60,7 @@ const WatchHero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Discover our exquisite collection of watches that blend style,
-          precision, and craftsmanship.
+          Discover our exquisite collection clothes, shoes, watches, accessorie.
         </motion.p>
         <motion.p
           className="mb-8 text-sm"
@@ -69,7 +68,7 @@ const WatchHero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Video Credit: Rolex Youtube - Submariner
+          
         </motion.p>
         <motion.div
           className="flex space-x-4"
@@ -84,7 +83,7 @@ const WatchHero: React.FC = () => {
           </Link>
           <Link href="/products">
             <button className="bg-transparent border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition duration-300">
-              View All Watches
+              View All items
             </button>
           </Link>
         </motion.div>
