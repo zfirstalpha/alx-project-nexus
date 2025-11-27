@@ -19,36 +19,36 @@ const Footer: React.FC = () => {
   const socialLinks: SocialLink[] = [
     {
       Icon: FaFacebookF,
-      href: "https://facebook.com/yourwatchbrand",
+      href: "https://facebook.com/addisstore",
       color: "blue",
     },
     {
       Icon: FaTwitter,
-      href: "https://twitter.com/yourwatchbrand",
+      href: "https://twitter.com/addisstore",
       color: "blue",
     },
     {
       Icon: FaInstagram,
-      href: "https://instagram.com/yourwatchbrand",
+      href: "https://instagram.com/addisstore",
       color: "blue",
     },
     {
       Icon: FaLinkedinIn,
-      href: "https://linkedin.com/company/yourwatchbrand",
+      href: "https://linkedin.com/company/addisstore",
       color: "blue",
     },
   ];
 
   return (
-    <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+    <footer className="bg-slate-400 text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 sm:gap-8">
           {/* Brand and description */}
           <div className="space-y-4">
-            <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
-              EcommStore
+            <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-slate-100">
+              AddisStore
             </h2>
-            <p className="text-gray-300">
+            <p className="text-gray-700">
               Crafting timeless elegance for the modern connoisseur.
             </p>
           </div>
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                         ? "/"
                         : `/${item.toLowerCase()}`
                     }
-                    className="text-gray-300 hover:text-blue-300 transition duration-300"
+                    className="text-gray-700 hover:text-blue-300 transition duration-300"
                   >
                     {item}
                   </Link>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
                         .toLowerCase()
                         .replace(" & ", "-")
                         .replace(" ", "-")}`}
-                      className="text-gray-300 hover:text-blue-300 transition duration-300"
+                      className="text-gray-700 hover:text-blue-300 transition duration-300"
                     >
                       {item}
                     </Link>
@@ -105,18 +105,18 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-4 border-b border-gray-700 pb-2">
               Stay Updated
             </h3>
-            <p className="text-gray-300 mb-4">
+            <p className="text-gray-700 mb-4">
               Subscribe to our newsletter for exclusive offers and updates.
             </p>
             <form className="flex">
               <input
                 type="email"
                 placeholder="Your email"
-                className="w-full px-4 py-2 bg-gray-700 text-white rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="w-full px-4 py-2 bg-gray-300 text-black rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400"
               />
               <button
                 type="submit"
-                className=" bg-blue-500 hover:bg-blue-600 text-gray-900 font-bold py-2 px-4 rounded-r-md transition duration-300"
+                className=" bg-slate-500 hover:bg-blue-600 text-gray-900 font-bold py-2 px-4 rounded-r-md transition duration-300"
               >
                 <HiOutlineMail className="w-6 h-6" />
               </button>

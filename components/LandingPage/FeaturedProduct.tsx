@@ -37,11 +37,11 @@ interface FeaturedWatch {
 }
 
 const mockFeaturedWatch: FeaturedWatch = {
-  name: "Patek Philippe Nautilus 5711/1A-010",
-  description: `The iconic Nautilus 5711/1A-010 redefines luxury sports watches with its distinctive porthole design. Crafted in stainless steel with a stunning blue sunburst dial, this timepiece features a self-winding mechanical movement with a 120m water resistance. The perfect balance of elegance and sportiness, featuring a horizontally embossed dial, luminous hands, and a seamlessly integrated bracelet.`,
+  name: "gold-tone Omega Speedmaster",
+  description: `The gold-tone Omega Speedmaster arrived in pristine condition, and it is stunning in person. The craftsmanship is superb; it feels solid and looks incredibly sharp with the black dial. This is more than just a watch; it's a powerful statement piece that truly elevates my professional attire. A fantastic investment!.`,
   price: 9500,
   originalPrice: 12500,
-  brand: "patek-philippe",
+  brand: "omega",
   water: "120m",
   casematerial: "Stainless Steel",
   thickness: "8.3mm",
@@ -139,14 +139,14 @@ const FeaturedProduct: React.FC = () => {
                 {featuredWatch1?.description.slice(0, 500)}
                 {"... "}
                 <Link
-                  className="text-blue-400 bg-blue-100/40 px-2 rounded-lg "
+                  className="text-slate-400 bg-blue-100/40 px-2 rounded-lg "
                   href={`/products/brand/${featuredWatch1?.brand}`}
                 >
                   Read More
                 </Link>
               </p>
               <div className="flex items-center mb-6">
-                <span className="text-3xl font-bold text-blue-600">
+                <span className="text-3xl font-bold text-slate-600">
                   ${featuredWatch1?.price.toLocaleString()}
                 </span>
                 <span className="text-xl text-gray-500 line-through ml-4">
@@ -161,38 +161,38 @@ const FeaturedProduct: React.FC = () => {
               </div>
               <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
                 <div className="flex items-center">
-                  <Tag className="w-5 h-5 mr-2 text-blue-500" />
+                  <Tag className="w-5 h-5 mr-2 text-slate-500" />
                   <span>
                     <strong>Brand:</strong> {featuredWatch1?.brand}
                   </span>
                 </div>
                 <div className="flex items-center">
-                  <Clock className="w-5 h-5 mr-2 text-blue-500" />
+                  <Clock className="w-5 h-5 mr-2 text-slate-500" />
                   <span>
                     <strong>Movement:</strong> Automatic
                   </span>
                 </div>
                 <div className="flex items-center">
-                  <Droplet className="w-5 h-5 mr-2 text-blue-500" />
+                  <Droplet className="w-5 h-5 mr-2 text-slate-500" />
                   <span>
                     <strong>Water Resistance:</strong> {featuredWatch1?.water}
                   </span>
                 </div>
                 <div className="flex items-center">
-                  <Box className="w-5 h-5 mr-2 text-blue-500" />
+                  <Box className="w-5 h-5 mr-2 text-slate-500" />
                   <span>
                     <strong>Case Material:</strong>{" "}
                     {featuredWatch1?.casematerial}
                   </span>
                 </div>
                 <div className="flex items-center">
-                  <Ruler className="w-5 h-5 mr-2 text-blue-500" />
+                  <Ruler className="w-5 h-5 mr-2 text-slate-500" />
                   <span>
                     <strong>Thickness:</strong> {featuredWatch1?.thickness}
                   </span>
                 </div>
                 <div className="flex items-center">
-                  <Shield className="w-5 h-5 mr-2 text-blue-500" />
+                  <Shield className="w-5 h-5 mr-2 text-slate-500" />
                   <span>
                     <strong>Glass:</strong> {featuredWatch1?.glass}
                   </span>
@@ -221,7 +221,7 @@ const FeaturedProduct: React.FC = () => {
               <div className="flex space-x-4">
                 <Link
                   href={`/products/brand/patekphilipe`}
-                  className="flex-1 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300 text-center text-lg font-semibold"
+                  className="flex-1 bg-slate-400 text-white px-6 py-3 rounded-full hover:bg-slate-200 transition duration-300 text-center text-lg font-semibold"
                 >
                   Shop Now
                 </Link>

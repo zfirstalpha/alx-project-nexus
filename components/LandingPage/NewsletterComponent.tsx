@@ -75,7 +75,7 @@ const NewsletterComponent: React.FC = () => {
           >
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 px-4 rounded-md shadow-xl hover:bg-blue-700 transition duration-300"
+              className="w-full bg-slate-400 text-white py-3 px-4 rounded-md shadow-xl hover:bg-slate-200 transition duration-300"
             >
               Subscribe Now
             </button>
