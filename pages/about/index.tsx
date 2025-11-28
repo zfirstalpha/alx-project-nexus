@@ -123,7 +123,7 @@ const AboutPage = () => {
               <Users className="w-16 h-16 mx-auto mb-4 text-slate-400-600" />
               <h3 className="text-xl font-semibold mb-2">Customer First</h3>
               <p>
-                Your satisfaction is our top priority. We're here to guide you
+                Your satisfaction is our top priority. We are here to guide you
                 to the perfect timepiece.
               </p>
             </div>
@@ -182,10 +182,10 @@ const AboutPage = () => {
               </div>
             </div>
             <p className="text-lg italic">
-              "AddisStore has been my go-to for premium timepieces for years.
+              AddisStore has been my go-to for premium timepieces for years.
               Their collection is unparalleled, and their customer service is
               simply outstanding. I always feel confident in my purchases from
-              them."
+              them.
             </p>
             <div className="flex mt-4">
               {[...Array(5)].map((_, i) => (
