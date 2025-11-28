@@ -4,35 +4,88 @@
 
 The **ProDev Frontend Engineering** program is an intensive and comprehensive training designed to equip developers with advanced skills in frontend development. It covers modern web technologies, best practices, and industry standards to build scalable, high-performance applications.
 
-## Major Learnings
+# Addis Store - Next.js Ecommerce Project
 
-### Key Technologies Covered
+[Live Demo](https://alx-project-nexus-green.vercel.app/)  
 
-- **Mobile Development**: Responsive web design, cross-platform frameworks.
-- **Web Development**: Modern JavaScript frameworks, state management.
-- **Progressive Web Apps (PWA)**: Offline capabilities, service workers, caching strategies.
+Addis Store is a modern, fully responsive eCommerce web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It allows users to browse products, view product details, add items to the cart, and subscribe to a newsletter. The project showcases modern frontend practices, dynamic routing, and clean UI design.
 
-### Important Frontend Development Concepts
+---
 
-- **Next.js**: Server-side rendering (SSR), static site generation (SSG), API routes.
-- **TailwindCSS**: Utility-first CSS, responsive design, component styling.
-- **System Design and Analysis**: Scalable architecture, component-based design, performance optimization.
-- **TypeScript**: Strong typing, interfaces, error handling, enhanced maintainability.
-- **GraphQL**: Efficient data fetching, schema definition, query and mutation handling.
-- **API Integration**: RESTful API consumption, authentication, real-time updates.
+## Features
 
-### Challenges Faced & Solutions Implemented
+- 🏠 **Homepage** with hero section, featured products, and call-to-action  
+- 📦 **Product Listing** with individual product pages and dynamic routes  
+- 🛒 **Shopping Cart** functionality for adding/removing items  
+- ✉️ **Newsletter Subscription**  
+- 📞 **Contact and About Pages**  
+- 📱 Fully **responsive design** for mobile, tablet, and desktop  
+- 🖼️ **Optimized Images** using Next.js `<Image>` component  
+- 🌐 SEO-friendly URLs and clean routing  
+- ⚡ Smooth animations and sliders for product showcases  
 
-- **State Management Complexity**: Implemented React Context API and Zustand for better state handling.
-- **Performance Bottlenecks**: Used lazy loading, code splitting, and caching strategies.
-- **Styling Consistency**: Established a design system with reusable components and TailwindCSS.
+---
 
-## Best Practices & Personal Takeaways
+## Tech Stack
 
-- **Code Readability**: Writing clean, maintainable, and well-documented code.
-- **Component Reusability**: Building modular and reusable UI components.
-- **Testing & Debugging**: Utilizing Jest, React Testing Library, and browser DevTools.
-- **Version Control**: Maintaining structured Git workflows and meaningful commit messages.
-- **Continuous Learning**: Keeping up with industry trends and best practices through research and collaboration.
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS  
+- **Backend (Optional):** MongoDB + Mongoose  
+- **Image Hosting:** Cloudinary  
+- **Icons & UI:** React Icons, Swiper.js  
+- **Deployment:** Vercel (frontend) 
 
-The **ProDev Frontend Engineering** program has significantly improved my development workflow, problem-solving skills, and ability to build high-quality frontend applications.
+---
+
+## Project Structure
+components
+├── Cart
+│   ├── Cart.tsx
+│   └── CartIconNav.tsx
+├── Footer
+│   └── index.tsx
+├── LandingPage
+│   ├── BestSelling.tsx
+│   ├── FeaturedProduct.tsx
+│   ├── GallerySlider.tsx
+│   ├── HeroVideo.tsx
+│   ├── NewsletterComponent....
+│   ├── WatchOfTheMonth.tsx
+│   └── WatchReviewSlider.tsx
+├── Navbar
+│   └── index.tsx
+├── product (directory not fully expanded/visible)
+└── products
+    ├── ProductCard.tsx
+    └── ProductGrid.tsx
+├── contexts
+│   └── CartContext.tsx
+├── interfaces
+│   └── index.ts
+├── lib (directory not expanded)
+├── node_modules (directory not expanded)
+└── pages
+    ├── about
+    │   └── index.tsx
+    ├── api
+    │   └── hello.ts
+    ├── checkout
+    │   └── index.tsx
+    ├── contact
+    │   └── index.tsx
+    ├── product
+    │   └── [productId].tsx
+    ├── _app.tsx
+    ├── _document.tsx
+    ├── index.tsx
+    ├── Layout.tsx
+    └── products.tsx
+
+---
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/zfirstalpha/alx-project-nexus.git
+cd alx-project-nexus
