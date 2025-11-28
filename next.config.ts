@@ -1,5 +1,5 @@
 import { fileURLToPath } from "url";
-import { dirname, resolve } from "path";
+import { dirname } from "path";
 import type { NextConfig } from "next";
 //import type { Configuration } from "webpack";
 
