@@ -90,4 +90,11 @@ components
 ```bash
 git clone https://github.com/zfirstalpha/alx-project-nexus.git
 cd alx-project-nexus
+```
+
+## Screenshots
+
+![Homepage](screenshots/Screenshot1.jpg)
+![Homepage Page](screenshots/Screenshot2.jpg)
+![Contact Page](screenshots/Screenshot3.jpg)
 
