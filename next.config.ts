@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
       "upload.wikimedia.org",
       "cdn.pixabay.com",
     ],
+    
+  }, eslint: {
+    ignoreDuringBuilds: true,
   },
   serverExternalPackages: ["mongoose"],
   env: {

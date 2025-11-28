@@ -18,13 +18,13 @@ const ContactPage: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Hero Section */}
-      <header className="bg-blue-600 text-white">
+      <header className="bg- text-black">
         <div className="container mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Contact EcomWatch
+            Contact AddisStore
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            We're Here to Help with Your Watch Needs
+            We're Here to Help with lauxury brand you needs.
           </p>
           <Image
             width={800}
@@ -44,22 +44,22 @@ const ContactPage: React.FC = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <MapPin className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+              <MapPin className="w-12 h-12 mx-auto mb-4 text-slate-400" />
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
-              <p>123 Watch Street, Timepiece City, TC 12345</p>
+              <p>Addis Ababa mexico</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <Phone className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+              <Phone className="w-12 h-12 mx-auto mb-4 text-slate-400" />
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
               <p>(123) 456-7890</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <Mail className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+              <Mail className="w-12 h-12 mx-auto mb-4 text-slate-400" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-              <p>support@ecomwatch.com</p>
+              <p>support@addisstore.com</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 text-center">
-              <Clock className="w-12 h-12 mx-auto mb-4 text-blue-600" />
+              <Clock className="w-12 h-12 mx-auto mb-4 text-slate-400" />
               <h3 className="text-xl font-semibold mb-2">Our Hours</h3>
               <p>
                 Mon-Fri: 9am-6pm
@@ -90,25 +90,25 @@ const ContactPage: React.FC = () => {
               </h2>
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <MessageCircle className="w-8 h-8 text-blue-600 mr-4" />
+                  <MessageCircle className="w-8 h-8 text-slate-400 mr-4" />
                   <div>
                     <h3 className="text-xl font-semibold">Live Chat</h3>
                     <p>Get instant answers from our support team</p>
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <Video className="w-8 h-8 text-blue-600 mr-4" />
+                  <Video className="w-8 h-8 text-slate-400 mr-4" />
                   <div>
                     <h3 className="text-xl font-semibold">
                       Video Consultation
                     </h3>
                     <p>
-                      Schedule a one-on-one video call with our watch experts
+                      Schedule a one-on-one video call with our experts
                     </p>
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <Headphones className="w-8 h-8 text-blue-600 mr-4" />
+                  <Headphones className="w-8 h-8 text-slate-400 mr-4" />
                   <div>
                     <h3 className="text-xl font-semibold">Phone Support</h3>
                     <p>Call us for immediate assistance</p>
@@ -159,24 +159,24 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* Newsletter Signup */}
-      <section className="bg-blue-600 text-white py-16">
+      <section className="bg-white-600 text-black py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Stay Updated with EcomWatch
+            Stay Updated with addisstore
           </h2>
           <p className="text-xl mb-8">
-            Subscribe to our newsletter for the latest watch news and exclusive
+            Subscribe to our newsletter for the latest brand, news and exclusive
             offers.
           </p>
           <form className="max-w-md mx-auto flex">
             <input
               type="email"
               placeholder="Enter your email"
-              className="flex-grow p-2 rounded-l-full"
+              className="flex-grow p-2 rounded-l-full  "
             />
             <button
               type="submit"
-              className="bg-white text-blue-600 font-bold py-2 px-6 rounded-r-full hover:bg-blue-100 transition duration-300"
+              className="bg-white text-slate-400-600 font-bold py-2 px-6 rounded-r-full hover:bg-blue-100 transition duration-300"
             >
               <Send className="w-6 h-6" />
             </button>

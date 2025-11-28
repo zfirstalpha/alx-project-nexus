@@ -42,9 +42,9 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl font-bold text-gray-900 hover:text-primary transition-colors"
+            className="text-xl font-bold text-slate-700 hover:text-primary transition-colors"
           >
-            EcommStore
+            Addis Store
           </Link>
 
           {/* Desktop Navigation */}
@@ -56,7 +56,7 @@ export default function Header() {
                   <li key={item}>
                     <Link
                       href={href}
-                      className="text-gray-700 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-primary hover:after:w-full after:transition-all after:duration-300"
+                      className="text-slate-700 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-primary hover:after:w-full after:transition-all after:duration-300"
                     >
                       {item}
                     </Link>

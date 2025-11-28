@@ -95,11 +95,11 @@ export default function ProductCard({ product }: ProductCardProps) {
           <p className="text-xs text-slate-400 mt-1">{product.brand}</p>
           <div className="flex justify-between items-center mt-2">
             <p className="text-sm font-semibold text-gray-900">
-              MAD {product.price.toFixed(2)}
+              ETB {product.price.toFixed(2)}
             </p>
             {product.originalPrice && (
               <p className="text-xs text-gray-500 line-through">
-                MAD {product.originalPrice.toFixed(2)}
+                ETB {product.originalPrice.toFixed(2)}
               </p>
             )}
           </div>

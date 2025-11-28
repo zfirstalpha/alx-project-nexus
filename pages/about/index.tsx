@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock, Watch, Star, TrendingUp, Users } from "lucide-react";
+import { Clock, Star, TrendingUp, Users } from "lucide-react";
 import Image, { StaticImageData } from "next/image";
 import About1 from "@/public/images/about/about1.jpg";
 import About2 from "@/public/images/about/about2.jpg";
@@ -50,10 +50,10 @@ const AboutPage = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       {/* Hero Section */}
-      <header className="bg-blue-600 text-white">
+      <header className="bg-white text-black">
         <div className="container mx-auto px-4 py-16 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            About EcommWatch
+            About AddisStore
           </h1>
           <p className="text-xl md:text-2xl mb-8">
             Crafting Time, Delivering Excellence
@@ -88,14 +88,14 @@ const AboutPage = () => {
             </div>
             <div className="md:w-1/2 md:pl-8">
               <p className="text-lg mb-4">
-                Founded in 2010, EcommWatch began with a simple yet powerful
-                vision: to make exquisite timepieces accessible to watch
+                Founded in 2010, AddisStore began with a simple yet powerful
+                vision: to make exquisite timepieces accessible to lauxury watch but now growing to other products like shoes, shirts, bags and many more
                 enthusiasts worldwide. Our journey started in a small workshop,
                 fueled by passion and craftsmanship.
               </p>
               <p className="text-lg">
-                Today, we've grown into a leading online destination for premium
-                watches, but our core values remain unchanged. We continue to
+                Today, weve grown into a leading online destination for premium
+                watches and other products like shoes and dresses, but our core values remain unchanged. We continue to
                 blend tradition with innovation, offering a curated selection of
                 watches that speak to both style and substance.
               </p>
@@ -112,7 +112,7 @@ const AboutPage = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <Clock className="w-16 h-16 mx-auto mb-4 text-blue-600" />
+              <Clock className="w-16 h-16 mx-auto mb-4 text-slate-400-600" />
               <h3 className="text-xl font-semibold mb-2">Timeless Quality</h3>
               <p>
                 We believe in offering watches that stand the test of time, both
@@ -120,7 +120,7 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="text-center">
-              <Users className="w-16 h-16 mx-auto mb-4 text-blue-600" />
+              <Users className="w-16 h-16 mx-auto mb-4 text-slate-400-600" />
               <h3 className="text-xl font-semibold mb-2">Customer First</h3>
               <p>
                 Your satisfaction is our top priority. We're here to guide you
@@ -128,7 +128,7 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="text-center">
-              <TrendingUp className="w-16 h-16 mx-auto mb-4 text-blue-600" />
+              <TrendingUp className="w-16 h-16 mx-auto mb-4 text-slate-400-600" />
               <h3 className="text-xl font-semibold mb-2">
                 Continuous Innovation
               </h3>
@@ -182,7 +182,7 @@ const AboutPage = () => {
               </div>
             </div>
             <p className="text-lg italic">
-              "EcommWatch has been my go-to for premium timepieces for years.
+              "AddisStore has been my go-to for premium timepieces for years.
               Their collection is unparalleled, and their customer service is
               simply outstanding. I always feel confident in my purchases from
               them."
@@ -200,16 +200,16 @@ const AboutPage = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-blue-600 text-white py-16">
+      <section className="bg-slate-200-600 text-black py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Join the EcommWatch Family
+            Join the AddisStore Family
           </h2>
           <p className="text-xl mb-8">
-            Discover your perfect timepiece today and experience the EcommWatch
+            Discover your perfect timepiece today and experience the AddisStore
             difference.
           </p>
-          <button className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-100 transition duration-300">
+          <button className="bg-white text-slate-800 font-bold py-3 px-8 rounded-full text-lg hover:bg-blue-100 transition duration-300">
             <Link href="/products/brand/rolex">Shop Now</Link>
           </button>
         </div>
