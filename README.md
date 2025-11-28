@@ -37,6 +37,7 @@ Addis Store is a modern, fully responsive eCommerce web application built with *
 ---
 
 ## Project Structure
+```bash
 components
 ├── Cart
 │   ├── Cart.tsx
@@ -79,7 +80,7 @@ components
     ├── index.tsx
     ├── Layout.tsx
     └── products.tsx
-
+```
 ---
 
 ## Installation
